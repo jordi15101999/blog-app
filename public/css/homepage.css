@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+.contoh {
+    height: 500px;
+    background-color: black;
+}
+
+/* Footer */
+
+footer {
+    padding-bottom: 20px;
+    background-color: white;
+    color: black;
+}
+
+.atas {
+    height: 300px;
+    margin: 0;
+    display: flex;
+    justify-items: center;
+}
+
+.atas .container {
+    display: flex;
+    align-self: center;
+    font-size: 14px;
+    padding: 0;
+}
+
+.atas .row {
+    display: flex;
+    align-self: center;
+}
+
+.atas .row .col-md-6 {
+    align-self: center;
+}
+
+.atas .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.atas .form-control {
+    border: black 1px solid;
+    border-radius: 0;
+}
+
+.atas .form-group input {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.atas .form-group textarea {
+    height: 150px;
+    font-size: 12px;
+    font-weight: bold;
+    resize: none;
+}
+
+.atas .form-group input::placeholder {
+    font-size: 12px;
+}
+
+.atas .form-group textarea::placeholder {
+    font-size: 12px;
+}
+
+.atas .btn {
+    width: 50%;
+    background-color: black !important;
+    border-radius: 0;
+}
+
+.atas .btn:hover {
+    box-shadow: 0 0 10px 0 black;
+}
+
+.atas .row .col-md-6 ul {
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.atas ul li a {
+    padding-left: 0;
+    padding-right: 20px;
+    color: black;
+}
+
+.atas ul li a i {
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+}
+.atas ul li a i:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.atas ul li #ig:hover {
+    color: red;
+}
+.atas ul li #twitter:hover {
+    color: rgb(77, 198, 255);
+}
+.atas ul li #fb:hover {
+    color: rgb(0, 0, 190);
+}
+.atas ul li #linked:hover {
+    color: rgb(0, 0, 148);
+}
+
+@media screen and (max-width: 576px) {
+    .atas {
+        height: 100%;
+        padding: 30px 30px;
+    }
+
+    .atas .container h5 {
+        text-align: center;
+    }
+
+    /* footer {
+        font-size: 12px;
+    }
+    footer p {
+        padding: 10px 20px;
+    } */
+}
