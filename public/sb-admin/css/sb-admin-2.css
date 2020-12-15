@@ -10725,7 +10725,7 @@ a:focus {
 .sidebar {
     width: 6.5rem;
     min-height: 100vh;
-    background-image: url("https://johjordi.online/portfolio/img/sidebar1.png");
+    background-image: url("/img/sidebar.png");
 }
 
 .sidebar .nav-item {
