@@ -22,7 +22,6 @@ import CreateCategory from "./components/CreateCategory";
 import ShowCategory from "./components/ShowCategory";
 // Blog
 import HomepagePosts from "./components/HomepagePosts";
-import Menuhomepage from './components/Menuhomepage'
 import Navbarhome from './components/Navbarhome'
 // import Contact from './components/Contact'
 import About from './components/About'
@@ -106,5 +105,5 @@ const router = new VueRouter({
 const app = new Vue({
     el: "#app",
     router,
-    components: { Menuadmin, Menuhomepage, Navbarhome}
+    components: { Menuadmin, Navbarhome}
 });

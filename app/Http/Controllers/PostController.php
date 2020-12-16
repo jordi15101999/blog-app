@@ -92,7 +92,7 @@ class PostController extends Controller
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $name = Str::slug($request->title) . '.' . $image->getClientOriginalExtension();
-            $location = public_path('/uploads');
+            $location = public_path("/uploads");
             $image->move($location, $name);
             $post->image = $name;
         }
@@ -152,7 +152,7 @@ class PostController extends Controller
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $name = Str::slug($request->title) . '.' . $image->getClientOriginalExtension();
-            $location = public_path("/uploads/");
+            $location = public_path("/uploads");
             $image->move($location, $name);
             $oldImage = $post->image;
             Storage::delete($oldImage);

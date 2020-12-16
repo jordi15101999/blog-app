@@ -40,6 +40,7 @@ Route::post('/read/{any}', 'ContactController@sendMail');
 Route::get('/about', function () {
     return view('/home1');
 });
+
 Route::post('/about', 'ContactController@sendMail');
 
 // Route::get('/contact', function () {

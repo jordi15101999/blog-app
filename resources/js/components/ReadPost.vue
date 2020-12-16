@@ -73,7 +73,6 @@ export default {
     mounted() {
         let id = this.$route.params.slug;
         axios.get("/api/posts/" + id).then(response => {
-            // console.log(response.data)
             this.title = response.data.title;
             this.body = response.data.body;
             this.image = response.data.image;
