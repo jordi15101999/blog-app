@@ -7,11 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-Install PHP 7.2.5
-Install Composer 
-Enable "extension=fileinfo" in php.ini(root directory PHP)
-execute composer install in terminal
-execute npm install in terminal
+Install PHP 7.2.5<br/>
+Install Composer <br/>
+Enable "extension=fileinfo" in php.ini(root directory PHP)<br/>
+execute composer install in terminal<br/>
+execute npm install in terminal<br/>
 
 to run program = php artisan serve 
 
